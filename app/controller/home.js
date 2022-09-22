@@ -1,5 +1,4 @@
 const { Controller } = require('egg');
-const axios = require('axios');
 
 class HomeController extends Controller {
   async index() {
