@@ -1,0 +1,75 @@
+2022-09-22 15:31:38,219 ERROR 47 [-/undefined/-/3ms GET /opensea] nodejs.TypeError: service.home.getOpenseaData is not a function
+    at HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:37)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at next (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:45:18)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/router.js:190:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:36:12)
+
+pid: 47
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-22 15:32:01,523 ERROR 51 [-/undefined/-/2ms GET /opensea] nodejs.TypeError: ctx.service.home.getOpenseaData is not a function
+    at HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:41)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at next (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:45:18)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/router.js:190:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:36:12)
+
+pid: 51
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-22 15:35:59,125 ERROR 69 [-/undefined/-/5ms GET /] nodejs.ReferenceError: ctx is not defined
+    at HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:5:20)
+    at HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:41)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at next (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:45:18)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/router.js:190:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+
+pid: 69
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-22 15:59:48,609 ERROR 77 [-/undefined/-/20ms GET /] nodejs.ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+    at new HomeService (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:7:5)
+    at getInstance (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:36)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at next (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:45:18)
+
+pid: 77
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-22 16:05:28,631 ERROR 81 [-/undefined/-/1111ms GET /] nodejs.ReferenceError: seaportFunction is not defined
+    at HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:25:5)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:18)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-static-cache/index.js:41:56)
+    at async notfound (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/app/middleware/notfound.js:5:5)
+
+pid: 81
+hostname: webcontainer-egg-ct8fkp
+
