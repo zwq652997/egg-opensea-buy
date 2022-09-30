@@ -1,0 +1,231 @@
+2022-09-22 15:31:38,219 ERROR 47 [-/undefined/-/3ms GET /opensea] nodejs.TypeError: service.home.getOpenseaData is not a function
+    at HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:37)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at next (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:45:18)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/router.js:190:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:36:12)
+
+pid: 47
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-22 15:32:01,523 ERROR 51 [-/undefined/-/2ms GET /opensea] nodejs.TypeError: ctx.service.home.getOpenseaData is not a function
+    at HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:41)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at next (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:45:18)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/router.js:190:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:36:12)
+
+pid: 51
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-22 15:35:59,125 ERROR 69 [-/undefined/-/5ms GET /] nodejs.ReferenceError: ctx is not defined
+    at HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:5:20)
+    at HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:41)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at next (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:45:18)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/router.js:190:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+
+pid: 69
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-22 15:59:48,609 ERROR 77 [-/undefined/-/20ms GET /] nodejs.ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+    at new HomeService (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:7:5)
+    at getInstance (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/context_loader.js:92:18)
+    at ClassLoader.get (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/context_loader.js:27:22)
+    at HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:36)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/home/projects/webcontainer-egg-ct8fkp/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:44:32)
+    at next (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-compose/index.js:45:18)
+
+pid: 77
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-22 16:05:28,631 ERROR 81 [-/undefined/-/1111ms GET /] nodejs.ReferenceError: seaportFunction is not defined
+    at HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:25:5)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:18)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-static-cache/index.js:41:56)
+    at async notfound (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/app/middleware/notfound.js:5:5)
+
+pid: 81
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-28 20:16:05,963 ERROR 6 [-/undefined/-/1159ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'protocol_data')
+    at HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:25:61)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:6:18)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-static-cache/index.js:41:56)
+    at async notfound (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/app/middleware/notfound.js:5:5)
+
+pid: 6
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-28 20:19:22,361 ERROR 11 [-/undefined/-/888ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'protocol_data')
+    at HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:25:61)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:6:18)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-static-cache/index.js:41:56)
+    at async notfound (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/app/middleware/notfound.js:5:5)
+
+pid: 11
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-28 20:19:28,658 ERROR 11 [-/undefined/-/634ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'protocol_data')
+    at HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:25:61)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:6:18)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-static-cache/index.js:41:56)
+    at async notfound (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/app/middleware/notfound.js:5:5)
+
+pid: 11
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-28 20:20:44,156 ERROR 15 [-/undefined/-/815ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'protocol_data')
+    at HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:25:61)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:6:18)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-static-cache/index.js:41:56)
+    at async notfound (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/app/middleware/notfound.js:5:5)
+
+pid: 15
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-28 20:26:16,986 ERROR 35 [-/undefined/-/4984ms GET /] nodejs.SERVER_ERRORError: processing response error (body="{\"jsonrpc\":\"2.0\",\"id\":52,\"error\":{\"code\":-32600,\"message\":\"Unsupported method: eth_sendTransaction. Alchemy does not hold users' private keys. See available methods at https://docs.alchemy.com/alchemy/documentation/apis\"}}", error={"code":-32600}, requestBody="{\"method\":\"eth_sendTransaction\",\"params\":[{\"gas\":\"0x27fe9\",\"value\":\"0x3ba565bc93a000\",\"from\":\"0x556d83e8abf3abde00cc36b08a2f2dd7dc61ff17\",\"to\":\"0x00000000006c3852cbef3e08e8df289169ede581\",\"data\":\"0xfb0f3ee1000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003430b905012c00000000000000000000000000191c21729bf4c82e0f1e9ce37ba5bd4afb5f496a000000000000000000000000004c00500000ad104d7dbd00e3ae0a5c00560c0000000000000000000000000034bc797f40df0445c8429d485232874b155617280000000000000000000000000000000000000000000000000000000000000b3c00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000006334360f00000000000000000000000000000000000000000000000000000000635bc30f0000000000000000000000000000000000000000000000000000000000000000360c6ebe0000000000000000000000000000000000000000c685fdceecc966880000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f00000000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f00000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000024000000000000000000000000000000000000000000000000000000000000002e0000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000017dbc24b6e4000000000000000000000000000000a26b00c1f0df003000390027140000faa7190000000000000000000000000000000000000000000000000005f6f092db90000000000000000000000000009935a4d7603d26694fce0e0d9b2fd7d343b560320000000000000000000000000000000000000000000000000000000000000041cc90e0af6dd3bc3e27c261d0658a67011e68428572f36db0c462114954c25f5b408e05ba67683cb979a21cf40f6bbaaff91ac2dff2ce771f8e4645bd4304107e1c00000000000000000000000000000000000000000000000000000000000000\"}],\"id\":52,\"jsonrpc\":\"2.0\"}", requestMethod="POST", url="https://api.opensea.io/jsonrpc/v1/", code=SERVER_ERROR, version=web/5.7.1)
+    at Logger.makeError (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/logger/lib/index.js:238:21)
+    at Logger.throwError (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/logger/lib/index.js:247:20)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/web/lib/index.js:313:32)
+    at step (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/web/lib/index.js:33:23)
+    at Object.eval [as next] (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/web/lib/index.js:14:53)
+    at fulfilled (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/web/lib/index.js:5:58)
+reason: "processing response error"
+code: "SERVER_ERROR"
+body: "{\"jsonrpc\":\"2.0\",\"id\":52,\"error\":{\"code\":-32600,\"message\":\"Unsupported method: eth_sendTransaction. Alchemy does not hold users' private keys. See available methods at https://docs.alchemy.com/alchemy/documentation/apis\"}}"
+error: {"code":-32600}
+requestBody: "{\"method\":\"eth_sendTransaction\",\"params\":[{\"gas\":\"0x27fe9\",\"value\":\"0x3ba565bc93a000\",\"from\":\"0x556d83e8abf3abde00cc36b08a2f2dd7dc61ff17\",\"to\":\"0x00000000006c3852cbef3e08e8df289169ede581\",\"data\":\"0xfb0f3ee1000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003430b905012c00000000000000000000000000191c21729bf4c82e0f1e9ce37ba5bd4afb5f496a000000000000000000000000004c00500000ad104d7dbd00e3ae0a5c00560c0000000000000000000000000034bc797f40df0445c8429d485232874b155617280000000000000000000000000000000000000000000000000000000000000b3c00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000006334360f00000000000000000000000000000000000000000000000000000000635bc30f0000000000000000000000000000000000000000000000000000000000000000360c6ebe0000000000000000000000000000000000000000c685fdceecc966880000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f00000000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f00000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000024000000000000000000000000000000000000000000000000000000000000002e0000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000017dbc24b6e4000000000000000000000000000000a26b00c1f0df003000390027140000faa7190000000000000000000000000000000000000000000000000005f6f092db90000000000000000000000000009935a4d7603d26694fce0e0d9b2fd7d343b560320000000000000000000000000000000000000000000000000000000000000041cc90e0af6dd3bc3e27c261d0658a67011e68428572f36db0c462114954c25f5b408e05ba67683cb979a21cf40f6bbaaff91ac2dff2ce771f8e4645bd4304107e1c00000000000000000000000000000000000000000000000000000000000000\"}],\"id\":52,\"jsonrpc\":\"2.0\"}"
+requestMethod: "POST"
+url: "https://api.opensea.io/jsonrpc/v1/"
+name: "SERVER_ERRORError"
+pid: 35
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-28 20:32:05,002 ERROR 47 [-/undefined/-/1672ms GET /] nodejs.ReferenceError: ethers is not defined
+    at HomeService.seaportFunction (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:34:32)
+    at async HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:26:12)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:18)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-static-cache/index.js:41:56)
+
+pid: 47
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-28 20:32:27,336 ERROR 51 [-/undefined/-/2788ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'parseUnits')
+    at HomeService.seaportFunction (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:34:52)
+    at async HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:26:12)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:18)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-static-cache/index.js:41:56)
+
+pid: 51
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-28 20:33:37,097 ERROR 55 [-/undefined/-/1637ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'parseUnits')
+    at HomeService.seaportFunction (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:34:52)
+    at async HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:26:12)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:18)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-static-cache/index.js:41:56)
+
+pid: 55
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-28 20:34:43,716 ERROR 59 [-/undefined/-/2738ms GET /] nodejs.SERVER_ERRORError: processing response error (body="{\"jsonrpc\":\"2.0\",\"id\":48,\"error\":{\"code\":-32000,\"message\":\"err: max priority fee per gas higher than max fee per gas: address 0x556d83E8ABf3abdE00cC36B08A2f2dD7dc61ff17, maxPriorityFeePerGas: 1500000000, maxFeePerGas: 0 (supplied gas 499999775010499)\"}}", error={"code":-32000}, requestBody="{\"method\":\"eth_estimateGas\",\"params\":[{\"maxPriorityFeePerGas\":\"0x59682f00\",\"value\":\"0x3ba565bc93a000\",\"from\":\"0x556d83e8abf3abde00cc36b08a2f2dd7dc61ff17\",\"to\":\"0x00000000006c3852cbef3e08e8df289169ede581\",\"data\":\"0xfb0f3ee1000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003430b905012c00000000000000000000000000191c21729bf4c82e0f1e9ce37ba5bd4afb5f496a000000000000000000000000004c00500000ad104d7dbd00e3ae0a5c00560c0000000000000000000000000034bc797f40df0445c8429d485232874b155617280000000000000000000000000000000000000000000000000000000000000b3c00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000006334360f00000000000000000000000000000000000000000000000000000000635bc30f0000000000000000000000000000000000000000000000000000000000000000360c6ebe0000000000000000000000000000000000000000c685fdceecc966880000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f00000000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f00000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000024000000000000000000000000000000000000000000000000000000000000002e0000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000017dbc24b6e4000000000000000000000000000000a26b00c1f0df003000390027140000faa7190000000000000000000000000000000000000000000000000005f6f092db90000000000000000000000000009935a4d7603d26694fce0e0d9b2fd7d343b560320000000000000000000000000000000000000000000000000000000000000041cc90e0af6dd3bc3e27c261d0658a67011e68428572f36db0c462114954c25f5b408e05ba67683cb979a21cf40f6bbaaff91ac2dff2ce771f8e4645bd4304107e1c00000000000000000000000000000000000000000000000000000000000000\"}],\"id\":48,\"jsonrpc\":\"2.0\"}", requestMethod="POST", url="https://api.opensea.io/jsonrpc/v1/", code=SERVER_ERROR, version=web/5.7.1)
+    at Logger.makeError (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/logger/lib/index.js:238:21)
+    at Logger.throwError (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/logger/lib/index.js:247:20)
+    at eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/web/lib/index.js:313:32)
+    at step (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/web/lib/index.js:33:23)
+    at Object.eval [as next] (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/web/lib/index.js:14:53)
+    at fulfilled (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/web/lib/index.js:5:58)
+reason: "processing response error"
+code: "SERVER_ERROR"
+body: "{\"jsonrpc\":\"2.0\",\"id\":48,\"error\":{\"code\":-32000,\"message\":\"err: max priority fee per gas higher than max fee per gas: address 0x556d83E8ABf3abdE00cC36B08A2f2dD7dc61ff17, maxPriorityFeePerGas: 1500000000, maxFeePerGas: 0 (supplied gas 499999775010499)\"}}"
+error: {"code":-32000}
+requestBody: "{\"method\":\"eth_estimateGas\",\"params\":[{\"maxPriorityFeePerGas\":\"0x59682f00\",\"value\":\"0x3ba565bc93a000\",\"from\":\"0x556d83e8abf3abde00cc36b08a2f2dd7dc61ff17\",\"to\":\"0x00000000006c3852cbef3e08e8df289169ede581\",\"data\":\"0xfb0f3ee1000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003430b905012c00000000000000000000000000191c21729bf4c82e0f1e9ce37ba5bd4afb5f496a000000000000000000000000004c00500000ad104d7dbd00e3ae0a5c00560c0000000000000000000000000034bc797f40df0445c8429d485232874b155617280000000000000000000000000000000000000000000000000000000000000b3c00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000006334360f00000000000000000000000000000000000000000000000000000000635bc30f0000000000000000000000000000000000000000000000000000000000000000360c6ebe0000000000000000000000000000000000000000c685fdceecc966880000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f00000000007b02230091a7ed01230072f7006a004d60a8d4e71d599b8104250f00000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000024000000000000000000000000000000000000000000000000000000000000002e0000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000017dbc24b6e4000000000000000000000000000000a26b00c1f0df003000390027140000faa7190000000000000000000000000000000000000000000000000005f6f092db90000000000000000000000000009935a4d7603d26694fce0e0d9b2fd7d343b560320000000000000000000000000000000000000000000000000000000000000041cc90e0af6dd3bc3e27c261d0658a67011e68428572f36db0c462114954c25f5b408e05ba67683cb979a21cf40f6bbaaff91ac2dff2ce771f8e4645bd4304107e1c00000000000000000000000000000000000000000000000000000000000000\"}],\"id\":48,\"jsonrpc\":\"2.0\"}"
+requestMethod: "POST"
+url: "https://api.opensea.io/jsonrpc/v1/"
+name: "SERVER_ERRORError"
+pid: 59
+hostname: webcontainer-egg-ct8fkp
+
+2022-09-28 20:35:49,907 ERROR 63 [-/undefined/-/1653ms GET /] nodejs.ReferenceError: res is not defined
+    at HomeService.seaportFunction (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:35:60)
+    at async HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:26:12)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:7:18)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-static-cache/index.js:41:56)
+
+pid: 63
+hostname: webcontainer-egg-ct8fkp
+

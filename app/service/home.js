@@ -10,7 +10,7 @@ module.exports = class HomeService extends Service {
   }
   async getOpenseaData() {
     const result = await this.ctx.curl(
-      'https://api.opensea.io/v2/orders/ethereum/seaport/listings?asset_contract_address=0xfa89a298755282c827af308ad73d24e56f30e30c&limit=1&token_ids=7112&order_by=created_date&order_direction=desc',
+      'https://api.opensea.io/v2/orders/ethereum/seaport/listings?asset_contract_address=0x36967c741e2e9c3b012e7a85595d1e3cc514b6e1&limit=1&token_ids=2584&order_by=created_date&order_direction=desc',
       {
         // 自动解析 JSON response
         dataType: 'json',
@@ -22,13 +22,20 @@ module.exports = class HomeService extends Service {
         timeout: 10000,
       }
     );
+    //return result.data.orders[0];
     return await this.seaportFunction(result.data.orders[0].protocol_data);
   }
   async seaportFunction(orderInfo) {
-    const { actions } = await this.seaport.fulfillOrder({
-      order: orderInfo,
-      accountAddress: '0x556d83E8ABf3abdE00cC36B08A2f2dD7dc61ff17',
-    });
-    return await actions[0].transactionMethods.buildTransaction();
+    const { actions, executeAllFulfillActions } =
+      await this.seaport.fulfillOrder({
+        order: orderInfo,
+        accountAddress: '0x556d83E8ABf3abdE00cC36B08A2f2dD7dc61ff17',
+      });
+
+    let obj = await actions[0].transactionMethods.buildTransaction();
+    // await actions[0].transactionMethods.estimateGas();
+    let gas = await this.provider.estimateGas(obj);
+    let gasLimit = parseInt(gas) * 1.3;
+    return { ...obj, gasLimit };
   }
 };
