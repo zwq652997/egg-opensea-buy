@@ -1,7 +1,7 @@
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
-module.exports = appInfo => {
+module.exports = (appInfo) => {
   /**
    * built-in config
    * @type {Egg.EggAppConfig}
@@ -15,8 +15,22 @@ module.exports = appInfo => {
     defaultViewEngine: 'nunjucks',
     mapping: {
       '.nj': 'nunjucks',
-      '.tpl': 'nunjucks'
-    }
+      '.tpl': 'nunjucks',
+    },
+  };
+
+  config.middleware = ['errorHanlder'];
+  config.onerror = {
+    html(err, ctx) {
+      // html hander
+      ctx.body = '<h3>error</h3>';
+      ctx.status = 500;
+    },
+    json(err, ctx) {
+      // json hander
+      ctx.body = { message: Boolean(false) };
+      ctx.status = 500;
+    },
   };
 
   return config;

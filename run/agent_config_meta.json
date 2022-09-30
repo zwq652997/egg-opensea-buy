@@ -10,6 +10,14 @@
     "cache": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-view/config/config.local.js",
     "defaultExtension": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-view/config/config.default.js"
   },
+  "middleware": "/home/projects/webcontainer-egg-ct8fkp/config/config.default.js",
+  "onerror": {
+    "html": "/home/projects/webcontainer-egg-ct8fkp/config/config.default.js",
+    "json": "/home/projects/webcontainer-egg-ct8fkp/config/config.default.js",
+    "errorPageUrl": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-onerror/config/config.default.js"
+  },
   "security": {
     "xframe": {
       "enable": "/home/projects/webcontainer-egg-ct8fkp/config/config.local.js",
@@ -79,11 +87,6 @@
     "limit": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-jsonp/config/config.default.js",
     "callback": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-jsonp/config/config.default.js",
     "csrf": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-jsonp/config/config.default.js"
-  },
-  "onerror": {
-    "errorPageUrl": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-onerror/config/config.default.js",
-    "templatePath": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
     "defaultLocale": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-i18n/config/config.default.js",

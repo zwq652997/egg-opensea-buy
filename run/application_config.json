@@ -89,7 +89,9 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-onerror/lib/onerror_page.mustache",
+      "html": "<Function html>",
+      "json": "<Function json>"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -325,9 +327,12 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "middleware": [
+      "errorHanlder"
+    ],
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",

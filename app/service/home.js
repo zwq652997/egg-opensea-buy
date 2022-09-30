@@ -16,13 +16,18 @@ module.exports = class HomeService extends Service {
         dataType: 'json',
         headers: {
           accept: 'application/json',
-          'X-API-KEY': '3ab57c2b1f344f138531b564544acdef',
+          // 'X-API-KEY': '3ab57c2b1f344f138531b564544acdef',
         },
         // 10 秒超时
         timeout: 10000,
       }
     );
     //return result.data.orders[0];
+    if (result.data.orders.length == 0) {
+      this.ctx.throw(500, 'not order');
+      return false;
+    }
+
     return await this.seaportFunction(result.data.orders[0].protocol_data);
   }
   async seaportFunction(orderInfo) {
@@ -35,7 +40,7 @@ module.exports = class HomeService extends Service {
     let obj = await actions[0].transactionMethods.buildTransaction();
     // await actions[0].transactionMethods.estimateGas();
     let gas = await this.provider.estimateGas(obj);
-    let gasLimit = parseInt(gas) * 1.3;
+    let gasLimit = Math.ceil(parseInt(gas) * 1.3);
     return { ...obj, gasLimit };
   }
 };
