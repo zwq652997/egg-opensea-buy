@@ -16,7 +16,6 @@ module.exports = class HomeService extends Service {
         dataType: 'json',
         headers: {
           accept: 'application/json',
-          // 'X-API-KEY': '3ab57c2b1f344f138531b564544acdef',
         },
         // 10 秒超时
         timeout: 10000,

@@ -1087,3 +1087,263 @@
 2022-10-09 13:20:41,755 INFO 101 [egg:core] dump config after load, 28ms
 2022-10-09 13:20:41,782 INFO 101 [egg-watcher:application] watcher start success
 2022-10-09 13:20:41,791 INFO 101 [egg:core] dump config after ready, 5ms
+2022-10-09 13:23:55,875 INFO 6 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:23:55,892 INFO 6 [egg-multipart] stream mode enable
+2022-10-09 13:23:57,559 INFO 6 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:23:57,566 INFO 6 [egg-security] use csrf middleware
+2022-10-09 13:23:57,567 INFO 6 [egg-security] use methodnoallow middleware
+2022-10-09 13:23:57,567 INFO 6 [egg-security] use noopen middleware
+2022-10-09 13:23:57,568 INFO 6 [egg-security] use nosniff middleware
+2022-10-09 13:23:57,569 INFO 6 [egg-security] use xssProtection middleware
+2022-10-09 13:23:57,570 INFO 6 [egg-security] use dta middleware
+2022-10-09 13:23:57,570 INFO 6 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:23:57,637 INFO 6 [egg:core] dump config after load, 52ms
+2022-10-09 13:23:57,638 INFO 6 [egg-watcher:application] watcher start success
+2022-10-09 13:23:57,651 INFO 6 [egg:core] dump config after ready, 8ms
+2022-10-09 13:24:27,472 INFO 10 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:24:27,598 INFO 10 [egg-multipart] stream mode enable
+2022-10-09 13:24:28,652 INFO 10 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:24:28,654 INFO 10 [egg-security] use csrf middleware
+2022-10-09 13:24:28,655 INFO 10 [egg-security] use methodnoallow middleware
+2022-10-09 13:24:28,655 INFO 10 [egg-security] use noopen middleware
+2022-10-09 13:24:28,656 INFO 10 [egg-security] use nosniff middleware
+2022-10-09 13:24:28,656 INFO 10 [egg-security] use xssProtection middleware
+2022-10-09 13:24:28,657 INFO 10 [egg-security] use dta middleware
+2022-10-09 13:24:28,657 INFO 10 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:24:28,711 INFO 10 [egg:core] dump config after load, 36ms
+2022-10-09 13:24:28,711 INFO 10 [egg-watcher:application] watcher start success
+2022-10-09 13:24:28,721 INFO 10 [egg:core] dump config after ready, 4ms
+2022-10-09 13:25:14,828 INFO 14 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:25:14,989 INFO 14 [egg-multipart] stream mode enable
+2022-10-09 13:25:15,734 INFO 14 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:25:15,737 INFO 14 [egg-security] use csrf middleware
+2022-10-09 13:25:15,738 INFO 14 [egg-security] use methodnoallow middleware
+2022-10-09 13:25:15,738 INFO 14 [egg-security] use noopen middleware
+2022-10-09 13:25:15,739 INFO 14 [egg-security] use nosniff middleware
+2022-10-09 13:25:15,739 INFO 14 [egg-security] use xssProtection middleware
+2022-10-09 13:25:15,739 INFO 14 [egg-security] use dta middleware
+2022-10-09 13:25:15,739 INFO 14 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:25:15,767 INFO 14 [egg:core] dump config after load, 19ms
+2022-10-09 13:25:15,789 INFO 14 [egg-watcher:application] watcher start success
+2022-10-09 13:25:15,798 INFO 14 [egg:core] dump config after ready, 7ms
+2022-10-09 13:25:43,143 INFO 18 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:25:43,149 INFO 18 [egg-multipart] stream mode enable
+2022-10-09 13:25:44,841 INFO 18 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:25:44,844 INFO 18 [egg-security] use csrf middleware
+2022-10-09 13:25:44,845 INFO 18 [egg-security] use methodnoallow middleware
+2022-10-09 13:25:44,845 INFO 18 [egg-security] use noopen middleware
+2022-10-09 13:25:44,846 INFO 18 [egg-security] use nosniff middleware
+2022-10-09 13:25:44,846 INFO 18 [egg-security] use xssProtection middleware
+2022-10-09 13:25:44,847 INFO 18 [egg-security] use dta middleware
+2022-10-09 13:25:44,847 INFO 18 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:25:44,868 INFO 18 [egg:core] dump config after load, 10ms
+2022-10-09 13:25:44,879 INFO 18 [egg-watcher:application] watcher start success
+2022-10-09 13:25:44,895 INFO 18 [egg:core] dump config after ready, 8ms
+2022-10-09 13:26:33,244 INFO 22 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:26:33,279 INFO 22 [egg-multipart] stream mode enable
+2022-10-09 13:26:34,501 INFO 22 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:26:34,507 INFO 22 [egg-security] use csrf middleware
+2022-10-09 13:26:34,515 INFO 22 [egg-security] use methodnoallow middleware
+2022-10-09 13:26:34,515 INFO 22 [egg-security] use noopen middleware
+2022-10-09 13:26:34,517 INFO 22 [egg-security] use nosniff middleware
+2022-10-09 13:26:34,518 INFO 22 [egg-security] use xssProtection middleware
+2022-10-09 13:26:34,519 INFO 22 [egg-security] use dta middleware
+2022-10-09 13:26:34,519 INFO 22 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:26:34,539 INFO 22 [egg:core] dump config after load, 18ms
+2022-10-09 13:26:34,558 INFO 22 [egg-watcher:application] watcher start success
+2022-10-09 13:26:34,576 INFO 22 [egg:core] dump config after ready, 7ms
+2022-10-09 13:27:23,917 INFO 26 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:27:23,938 INFO 26 [egg-multipart] stream mode enable
+2022-10-09 13:27:24,805 INFO 26 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:27:24,809 INFO 26 [egg-security] use csrf middleware
+2022-10-09 13:27:24,811 INFO 26 [egg-security] use methodnoallow middleware
+2022-10-09 13:27:24,812 INFO 26 [egg-security] use noopen middleware
+2022-10-09 13:27:24,814 INFO 26 [egg-security] use nosniff middleware
+2022-10-09 13:27:24,815 INFO 26 [egg-security] use xssProtection middleware
+2022-10-09 13:27:24,815 INFO 26 [egg-security] use dta middleware
+2022-10-09 13:27:24,815 INFO 26 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:27:24,845 INFO 26 [egg:core] dump config after load, 21ms
+2022-10-09 13:27:24,846 INFO 26 [egg-watcher:application] watcher start success
+2022-10-09 13:27:24,894 INFO 26 [egg:core] dump config after ready, 11ms
+2022-10-09 13:27:51,479 INFO 30 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:27:51,497 INFO 30 [egg-multipart] stream mode enable
+2022-10-09 13:27:52,291 INFO 30 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:27:52,294 INFO 30 [egg-security] use csrf middleware
+2022-10-09 13:27:52,300 INFO 30 [egg-security] use methodnoallow middleware
+2022-10-09 13:27:52,300 INFO 30 [egg-security] use noopen middleware
+2022-10-09 13:27:52,301 INFO 30 [egg-security] use nosniff middleware
+2022-10-09 13:27:52,301 INFO 30 [egg-security] use xssProtection middleware
+2022-10-09 13:27:52,301 INFO 30 [egg-security] use dta middleware
+2022-10-09 13:27:52,301 INFO 30 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:27:52,312 INFO 30 [egg:core] dump config after load, 8ms
+2022-10-09 13:27:52,313 INFO 30 [egg-watcher:application] watcher start success
+2022-10-09 13:27:52,333 INFO 30 [egg:core] dump config after ready, 5ms
+2022-10-09 13:28:09,251 INFO 34 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:28:09,257 INFO 34 [egg-multipart] stream mode enable
+2022-10-09 13:28:10,206 INFO 34 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:28:10,209 INFO 34 [egg-security] use csrf middleware
+2022-10-09 13:28:10,209 INFO 34 [egg-security] use methodnoallow middleware
+2022-10-09 13:28:10,210 INFO 34 [egg-security] use noopen middleware
+2022-10-09 13:28:10,211 INFO 34 [egg-security] use nosniff middleware
+2022-10-09 13:28:10,211 INFO 34 [egg-security] use xssProtection middleware
+2022-10-09 13:28:10,211 INFO 34 [egg-security] use dta middleware
+2022-10-09 13:28:10,211 INFO 34 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:28:10,230 INFO 34 [egg:core] dump config after load, 7ms
+2022-10-09 13:28:10,234 INFO 34 [egg-watcher:application] watcher start success
+2022-10-09 13:28:10,257 INFO 34 [egg:core] dump config after ready, 14ms
+2022-10-09 13:28:40,280 INFO 38 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:28:40,286 INFO 38 [egg-multipart] stream mode enable
+2022-10-09 13:28:41,012 INFO 38 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:28:41,014 INFO 38 [egg-security] use csrf middleware
+2022-10-09 13:28:41,015 INFO 38 [egg-security] use methodnoallow middleware
+2022-10-09 13:28:41,016 INFO 38 [egg-security] use noopen middleware
+2022-10-09 13:28:41,017 INFO 38 [egg-security] use nosniff middleware
+2022-10-09 13:28:41,017 INFO 38 [egg-security] use xssProtection middleware
+2022-10-09 13:28:41,017 INFO 38 [egg-security] use dta middleware
+2022-10-09 13:28:41,018 INFO 38 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:28:41,042 INFO 38 [egg:core] dump config after load, 20ms
+2022-10-09 13:28:41,042 INFO 38 [egg-watcher:application] watcher start success
+2022-10-09 13:28:41,047 INFO 38 [egg:core] dump config after ready, 4ms
+2022-10-09 13:29:08,678 INFO 42 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:29:08,683 INFO 42 [egg-multipart] stream mode enable
+2022-10-09 13:29:09,751 INFO 42 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:29:09,754 INFO 42 [egg-security] use csrf middleware
+2022-10-09 13:29:09,756 INFO 42 [egg-security] use methodnoallow middleware
+2022-10-09 13:29:09,756 INFO 42 [egg-security] use noopen middleware
+2022-10-09 13:29:09,757 INFO 42 [egg-security] use nosniff middleware
+2022-10-09 13:29:09,757 INFO 42 [egg-security] use xssProtection middleware
+2022-10-09 13:29:09,757 INFO 42 [egg-security] use dta middleware
+2022-10-09 13:29:09,758 INFO 42 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:29:09,811 INFO 42 [egg:core] dump config after load, 50ms
+2022-10-09 13:29:09,817 INFO 42 [egg-watcher:application] watcher start success
+2022-10-09 13:29:09,826 INFO 42 [egg:core] dump config after ready, 5ms
+2022-10-09 13:29:36,005 INFO 46 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:29:36,011 INFO 46 [egg-multipart] stream mode enable
+2022-10-09 13:29:37,355 INFO 46 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:29:37,357 INFO 46 [egg-security] use csrf middleware
+2022-10-09 13:29:37,358 INFO 46 [egg-security] use methodnoallow middleware
+2022-10-09 13:29:37,358 INFO 46 [egg-security] use noopen middleware
+2022-10-09 13:29:37,359 INFO 46 [egg-security] use nosniff middleware
+2022-10-09 13:29:37,359 INFO 46 [egg-security] use xssProtection middleware
+2022-10-09 13:29:37,360 INFO 46 [egg-security] use dta middleware
+2022-10-09 13:29:37,360 INFO 46 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:29:37,373 INFO 46 [egg:core] dump config after load, 10ms
+2022-10-09 13:29:37,376 INFO 46 [egg-watcher:application] watcher start success
+2022-10-09 13:29:37,384 INFO 46 [egg:core] dump config after ready, 5ms
+2022-10-09 13:29:53,916 INFO 50 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:29:53,921 INFO 50 [egg-multipart] stream mode enable
+2022-10-09 13:29:55,118 INFO 50 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:29:55,124 INFO 50 [egg-security] use csrf middleware
+2022-10-09 13:29:55,125 INFO 50 [egg-security] use methodnoallow middleware
+2022-10-09 13:29:55,125 INFO 50 [egg-security] use noopen middleware
+2022-10-09 13:29:55,126 INFO 50 [egg-security] use nosniff middleware
+2022-10-09 13:29:55,126 INFO 50 [egg-security] use xssProtection middleware
+2022-10-09 13:29:55,126 INFO 50 [egg-security] use dta middleware
+2022-10-09 13:29:55,126 INFO 50 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:29:55,150 INFO 50 [egg:core] dump config after load, 17ms
+2022-10-09 13:29:55,150 INFO 50 [egg-watcher:application] watcher start success
+2022-10-09 13:29:55,165 INFO 50 [egg:core] dump config after ready, 7ms
+2022-10-09 13:30:26,384 INFO 55 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:30:26,390 INFO 55 [egg-multipart] stream mode enable
+2022-10-09 13:30:27,738 INFO 55 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:30:27,741 INFO 55 [egg-security] use csrf middleware
+2022-10-09 13:30:27,742 INFO 55 [egg-security] use methodnoallow middleware
+2022-10-09 13:30:27,742 INFO 55 [egg-security] use noopen middleware
+2022-10-09 13:30:27,743 INFO 55 [egg-security] use nosniff middleware
+2022-10-09 13:30:27,744 INFO 55 [egg-security] use xssProtection middleware
+2022-10-09 13:30:27,745 INFO 55 [egg-security] use dta middleware
+2022-10-09 13:30:27,745 INFO 55 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:30:27,759 INFO 55 [egg:core] dump config after load, 9ms
+2022-10-09 13:30:27,761 INFO 55 [egg-watcher:application] watcher start success
+2022-10-09 13:30:27,854 INFO 55 [egg:core] dump config after ready, 6ms
+2022-10-09 13:30:52,227 INFO 59 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:30:52,233 INFO 59 [egg-multipart] stream mode enable
+2022-10-09 13:30:53,440 INFO 59 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:30:53,442 INFO 59 [egg-security] use csrf middleware
+2022-10-09 13:30:53,443 INFO 59 [egg-security] use methodnoallow middleware
+2022-10-09 13:30:53,443 INFO 59 [egg-security] use noopen middleware
+2022-10-09 13:30:53,444 INFO 59 [egg-security] use nosniff middleware
+2022-10-09 13:30:53,444 INFO 59 [egg-security] use xssProtection middleware
+2022-10-09 13:30:53,445 INFO 59 [egg-security] use dta middleware
+2022-10-09 13:30:53,445 INFO 59 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:30:53,472 INFO 59 [egg:core] dump config after load, 24ms
+2022-10-09 13:30:53,487 INFO 59 [egg-watcher:application] watcher start success
+2022-10-09 13:30:53,494 INFO 59 [egg:core] dump config after ready, 4ms
+2022-10-09 13:31:10,999 INFO 63 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:31:11,005 INFO 63 [egg-multipart] stream mode enable
+2022-10-09 13:31:12,146 INFO 63 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:31:12,148 INFO 63 [egg-security] use csrf middleware
+2022-10-09 13:31:12,150 INFO 63 [egg-security] use methodnoallow middleware
+2022-10-09 13:31:12,150 INFO 63 [egg-security] use noopen middleware
+2022-10-09 13:31:12,151 INFO 63 [egg-security] use nosniff middleware
+2022-10-09 13:31:12,151 INFO 63 [egg-security] use xssProtection middleware
+2022-10-09 13:31:12,151 INFO 63 [egg-security] use dta middleware
+2022-10-09 13:31:12,151 INFO 63 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:31:12,191 INFO 63 [egg:core] dump config after load, 14ms
+2022-10-09 13:31:12,192 INFO 63 [egg-watcher:application] watcher start success
+2022-10-09 13:31:12,216 INFO 63 [egg:core] dump config after ready, 19ms
+2022-10-09 13:31:54,090 INFO 67 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:31:54,099 INFO 67 [egg-multipart] stream mode enable
+2022-10-09 13:31:55,569 INFO 67 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:31:55,572 INFO 67 [egg-security] use csrf middleware
+2022-10-09 13:31:55,573 INFO 67 [egg-security] use methodnoallow middleware
+2022-10-09 13:31:55,574 INFO 67 [egg-security] use noopen middleware
+2022-10-09 13:31:55,574 INFO 67 [egg-security] use nosniff middleware
+2022-10-09 13:31:55,575 INFO 67 [egg-security] use xssProtection middleware
+2022-10-09 13:31:55,575 INFO 67 [egg-security] use dta middleware
+2022-10-09 13:31:55,575 INFO 67 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:31:55,590 INFO 67 [egg:core] dump config after load, 11ms
+2022-10-09 13:31:55,591 INFO 67 [egg-watcher:application] watcher start success
+2022-10-09 13:31:55,603 INFO 67 [egg:core] dump config after ready, 8ms
+2022-10-09 13:32:17,325 INFO 71 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:32:17,331 INFO 71 [egg-multipart] stream mode enable
+2022-10-09 13:32:18,241 INFO 71 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:32:18,243 INFO 71 [egg-security] use csrf middleware
+2022-10-09 13:32:18,244 INFO 71 [egg-security] use methodnoallow middleware
+2022-10-09 13:32:18,244 INFO 71 [egg-security] use noopen middleware
+2022-10-09 13:32:18,252 INFO 71 [egg-security] use nosniff middleware
+2022-10-09 13:32:18,252 INFO 71 [egg-security] use xssProtection middleware
+2022-10-09 13:32:18,253 INFO 71 [egg-security] use dta middleware
+2022-10-09 13:32:18,253 INFO 71 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:32:18,274 INFO 71 [egg:core] dump config after load, 18ms
+2022-10-09 13:32:18,274 INFO 71 [egg-watcher:application] watcher start success
+2022-10-09 13:32:18,455 INFO 71 [egg:core] dump config after ready, 178ms
+2022-10-09 13:33:16,004 INFO 75 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:33:16,025 INFO 75 [egg-multipart] stream mode enable
+2022-10-09 13:33:17,415 INFO 75 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:33:17,418 INFO 75 [egg-security] use csrf middleware
+2022-10-09 13:33:17,419 INFO 75 [egg-security] use methodnoallow middleware
+2022-10-09 13:33:17,420 INFO 75 [egg-security] use noopen middleware
+2022-10-09 13:33:17,421 INFO 75 [egg-security] use nosniff middleware
+2022-10-09 13:33:17,421 INFO 75 [egg-security] use xssProtection middleware
+2022-10-09 13:33:17,421 INFO 75 [egg-security] use dta middleware
+2022-10-09 13:33:17,421 INFO 75 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:33:17,475 INFO 75 [egg:core] dump config after load, 24ms
+2022-10-09 13:33:17,476 INFO 75 [egg-watcher:application] watcher start success
+2022-10-09 13:33:17,483 INFO 75 [egg:core] dump config after ready, 5ms
+2022-10-09 13:33:47,729 INFO 79 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:33:47,735 INFO 79 [egg-multipart] stream mode enable
+2022-10-09 13:33:49,355 INFO 79 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:33:49,387 INFO 79 [egg-security] use csrf middleware
+2022-10-09 13:33:49,388 INFO 79 [egg-security] use methodnoallow middleware
+2022-10-09 13:33:49,388 INFO 79 [egg-security] use noopen middleware
+2022-10-09 13:33:49,389 INFO 79 [egg-security] use nosniff middleware
+2022-10-09 13:33:49,389 INFO 79 [egg-security] use xssProtection middleware
+2022-10-09 13:33:49,389 INFO 79 [egg-security] use dta middleware
+2022-10-09 13:33:49,389 INFO 79 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:33:49,400 INFO 79 [egg:core] dump config after load, 7ms
+2022-10-09 13:33:49,400 INFO 79 [egg-watcher:application] watcher start success
+2022-10-09 13:33:49,412 INFO 79 [egg:core] dump config after ready, 4ms
+2022-10-09 13:34:52,956 INFO 83 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-10-09 13:34:52,975 INFO 83 [egg-multipart] stream mode enable
+2022-10-09 13:34:54,695 INFO 83 [egg-static] starting static serve /public/ -> /home/projects/webcontainer-egg-ct8fkp/app/public
+2022-10-09 13:34:54,697 INFO 83 [egg-security] use csrf middleware
+2022-10-09 13:34:54,698 INFO 83 [egg-security] use methodnoallow middleware
+2022-10-09 13:34:54,699 INFO 83 [egg-security] use noopen middleware
+2022-10-09 13:34:54,700 INFO 83 [egg-security] use nosniff middleware
+2022-10-09 13:34:54,712 INFO 83 [egg-security] use xssProtection middleware
+2022-10-09 13:34:54,712 INFO 83 [egg-security] use dta middleware
+2022-10-09 13:34:54,712 INFO 83 [egg-security] compose 6 middlewares into one security middleware
+2022-10-09 13:34:54,728 INFO 83 [egg:core] dump config after load, 12ms
+2022-10-09 13:34:54,730 INFO 83 [egg-watcher:application] watcher start success
+2022-10-09 13:34:54,744 INFO 83 [egg:core] dump config after ready, 9ms
