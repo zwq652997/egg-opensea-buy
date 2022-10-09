@@ -36,6 +36,7 @@
       "headerName": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/config/config.default.js",
       "bodyName": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/config/config.default.js",
       "queryName": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/config/config.default.js",
       "refererWhiteList": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
@@ -180,7 +181,8 @@
       "egg": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js",
       "egg-scripts": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js",
       "egg-view-nunjucks": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js",
-      "ethers": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js"
+      "ethers": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js",
+      "public-ip": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "egg-bin": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js"
@@ -207,7 +209,8 @@
     "pageUrl": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js",
+    "cacheControl": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
     "enable": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js",
@@ -239,7 +242,8 @@
     "coreLogger": {
       "consoleLevel": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.local.js"
     },
-    "allowDebugAtProd": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js"
+    "allowDebugAtProd": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
     "enableDNSCache": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/config.default.js",

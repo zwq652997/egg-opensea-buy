@@ -23,6 +23,7 @@ module.exports = class HomeService extends Service {
       }
     );
     //return result.data.orders[0];
+    console.log(result.headers);
     if (result.data.orders.length == 0) {
       this.ctx.throw(500, 'not order');
       return false;

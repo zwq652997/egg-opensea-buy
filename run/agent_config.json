@@ -21,6 +21,18 @@
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
         "queryName": "_csrf",
+        "supportedRequests": [
+          {
+            "path": {},
+            "methods": [
+              "POST",
+              "PATCH",
+              "DELETE",
+              "PUT",
+              "CONNECT"
+            ]
+          }
+        ],
         "refererWhiteList": []
       },
       "xframe": {
@@ -184,7 +196,8 @@
         "egg": "^2",
         "egg-scripts": "^2",
         "egg-view-nunjucks": "^2",
-        "ethers": "^5.7.1"
+        "ethers": "^5.7.1",
+        "public-ip": "^6.0.1"
       },
       "devDependencies": {
         "egg-bin": "^4"
@@ -211,7 +224,8 @@
       "pageUrl": ""
     },
     "siteFile": {
-      "/favicon.ico": "<Buffer len: 6463>"
+      "/favicon.ico": "<Buffer len: 6463>",
+      "cacheControl": "public, max-age=2592000"
     },
     "bodyParser": {
       "enable": true,
@@ -244,6 +258,7 @@
         "consoleLevel": "WARN"
       },
       "allowDebugAtProd": false,
+      "enablePerformanceTimer": false,
       "type": "agent"
     },
     "httpclient": {
@@ -310,7 +325,7 @@
       "env": [],
       "from": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/plugin.js",
       "path": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-onerror",
-      "version": "2.1.0"
+      "version": "2.1.1"
     },
     "session": {
       "enable": true,
@@ -356,7 +371,7 @@
       "env": [],
       "from": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/plugin.js",
       "path": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-multipart",
-      "version": "2.12.0"
+      "version": "2.13.1"
     },
     "security": {
       "enable": true,
@@ -369,7 +384,7 @@
       "env": [],
       "from": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/plugin.js",
       "path": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security",
-      "version": "2.9.0"
+      "version": "2.11.0"
     },
     "development": {
       "enable": true,
@@ -408,7 +423,7 @@
       "env": [],
       "from": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg/config/plugin.js",
       "path": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-schedule",
-      "version": "3.6.6"
+      "version": "3.7.0"
     },
     "static": {
       "enable": true,
@@ -459,5 +474,33 @@
       "path": "/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-view-nunjucks",
       "version": "2.3.0"
     }
+  },
+  "appInfo": {
+    "name": "webcontainer-egg",
+    "baseDir": "/home/projects/webcontainer-egg-ct8fkp",
+    "env": "local",
+    "scope": "",
+    "HOME": "/home",
+    "pkg": {
+      "name": "webcontainer-egg",
+      "version": "0.0.0",
+      "private": true,
+      "dependencies": {
+        "@opensea/seaport-js": "^1.0.6",
+        "egg": "^2",
+        "egg-scripts": "^2",
+        "egg-view-nunjucks": "^2",
+        "ethers": "^5.7.1",
+        "public-ip": "^6.0.1"
+      },
+      "devDependencies": {
+        "egg-bin": "^4"
+      },
+      "scripts": {
+        "start": "node index.js"
+      },
+      "homepage": "https://github.com/atian25/webcontainer-egg"
+    },
+    "root": "/home/projects/webcontainer-egg-ct8fkp"
   }
 }

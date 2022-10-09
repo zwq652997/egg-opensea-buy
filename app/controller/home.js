@@ -5,6 +5,9 @@ class HomeController extends Controller {
   async index() {
     const { ctx, service } = this;
     const { address, token, contract } = ctx.query;
+    const result = await ctx.curl('http://ifconfig.me/ip');
+    console.log(12345);
+    ctx.body = result;
     if (!address || !token || !contract) {
       this.ctx.throw(500, '参数异常');
     }
