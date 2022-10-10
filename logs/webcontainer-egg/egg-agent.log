@@ -415,3 +415,59 @@
 2022-10-09 13:34:52,790 INFO 83 [egg:core] dump config after load, 11ms
 2022-10-09 13:34:52,813 INFO 83 [egg-watcher:agent] watcher start success
 2022-10-09 13:34:52,826 INFO 83 [egg:core] dump config after ready, 6ms
+2022-10-10 15:02:43,285 INFO 6 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 15:02:43,471 INFO 6 [egg:core] dump config after load, 17ms
+2022-10-10 15:02:43,868 INFO 6 [egg-watcher:agent] watcher start success
+2022-10-10 15:02:43,969 INFO 6 [egg:core] dump config after ready, 84ms
+2022-10-10 15:22:01,898 INFO 11 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 15:22:01,921 INFO 11 [egg:core] dump config after load, 11ms
+2022-10-10 15:22:01,950 INFO 11 [egg-watcher:agent] watcher start success
+2022-10-10 15:22:01,981 INFO 11 [egg:core] dump config after ready, 23ms
+2022-10-10 15:23:10,749 INFO 16 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 15:23:10,854 INFO 16 [egg:core] dump config after load, 79ms
+2022-10-10 15:23:10,886 INFO 16 [egg-watcher:agent] watcher start success
+2022-10-10 15:23:11,033 INFO 16 [egg:core] dump config after ready, 136ms
+2022-10-10 15:23:32,422 INFO 21 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 15:23:32,457 INFO 21 [egg:core] dump config after load, 15ms
+2022-10-10 15:23:32,937 INFO 21 [egg-watcher:agent] watcher start success
+2022-10-10 15:23:32,954 INFO 21 [egg:core] dump config after ready, 7ms
+2022-10-10 15:25:11,675 INFO 26 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 15:25:11,703 INFO 26 [egg:core] dump config after load, 11ms
+2022-10-10 15:25:11,725 INFO 26 [egg-watcher:agent] watcher start success
+2022-10-10 15:25:11,742 INFO 26 [egg:core] dump config after ready, 6ms
+2022-10-10 15:26:04,239 INFO 30 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 15:26:04,263 INFO 30 [egg:core] dump config after load, 11ms
+2022-10-10 15:26:04,285 INFO 30 [egg-watcher:agent] watcher start success
+2022-10-10 15:26:04,303 INFO 30 [egg:core] dump config after ready, 11ms
+2022-10-10 15:26:49,583 INFO 35 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 15:26:49,604 INFO 35 [egg:core] dump config after load, 10ms
+2022-10-10 15:26:49,628 INFO 35 [egg-watcher:agent] watcher start success
+2022-10-10 15:26:49,638 INFO 35 [egg:core] dump config after ready, 5ms
+2022-10-10 15:27:23,342 INFO 39 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 15:27:23,365 INFO 39 [egg:core] dump config after load, 10ms
+2022-10-10 15:27:23,393 INFO 39 [egg-watcher:agent] watcher start success
+2022-10-10 15:27:23,407 INFO 39 [egg:core] dump config after ready, 5ms
+2022-10-10 15:27:35,805 INFO 43 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 15:27:35,829 INFO 43 [egg:core] dump config after load, 11ms
+2022-10-10 15:27:35,853 INFO 43 [egg-watcher:agent] watcher start success
+2022-10-10 15:27:35,870 INFO 43 [egg:core] dump config after ready, 11ms
+2022-10-10 16:05:33,672 INFO 47 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 16:05:33,707 INFO 47 [egg:core] dump config after load, 15ms
+2022-10-10 16:05:33,732 INFO 47 [egg-watcher:agent] watcher start success
+2022-10-10 16:05:33,744 INFO 47 [egg:core] dump config after ready, 6ms
+2022-10-10 16:06:58,914 INFO 51 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 16:06:58,958 INFO 51 [egg:core] dump config after load, 16ms
+2022-10-10 16:06:58,981 INFO 51 [egg-watcher:agent] watcher start success
+2022-10-10 16:06:58,991 INFO 51 [egg:core] dump config after ready, 5ms
+2022-10-10 16:07:30,517 INFO 55 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 16:07:30,548 INFO 55 [egg:core] dump config after load, 16ms
+2022-10-10 16:07:30,574 INFO 55 [egg-watcher:agent] watcher start success
+2022-10-10 16:07:30,592 INFO 55 [egg:core] dump config after ready, 14ms
+2022-10-10 16:07:49,055 INFO 59 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 16:07:49,081 INFO 59 [egg:core] dump config after load, 10ms
+2022-10-10 16:07:49,103 INFO 59 [egg-watcher:agent] watcher start success
+2022-10-10 16:07:49,120 INFO 59 [egg:core] dump config after ready, 10ms
+2022-10-10 16:08:47,709 INFO 63 [egg:logger] init all loggers with options: {"dir":"/home/projects/webcontainer-egg-ct8fkp/logs/webcontainer-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"webcontainer-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"agent"}
+2022-10-10 16:08:47,730 INFO 63 [egg:core] dump config after load, 10ms
+2022-10-10 16:08:47,752 INFO 63 [egg-watcher:agent] watcher start success
+2022-10-10 16:08:47,763 INFO 63 [egg:core] dump config after ready, 6ms

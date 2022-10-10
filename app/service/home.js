@@ -10,7 +10,7 @@ module.exports = class HomeService extends Service {
   }
   async getOpenseaData() {
     const result = await this.ctx.curl(
-      'https://api.opensea.io/v2/orders/ethereum/seaport/listings?asset_contract_address=0x36967c741e2e9c3b012e7a85595d1e3cc514b6e1&limit=1&token_ids=2584&order_by=created_date&order_direction=desc',
+      'https://api.opensea.io/v2/orders/ethereum/seaport/listings?asset_contract_address=0x5b7a317a300699531ca4673473b84b6a7cbbc294&limit=1&token_ids=3697&order_by=created_date&order_direction=desc',
       {
         // 自动解析 JSON response
         dataType: 'json',
@@ -21,13 +21,13 @@ module.exports = class HomeService extends Service {
         timeout: 10000,
       }
     );
-    //return result.data.orders[0];
-    console.log(result.headers);
     if (result.data.orders.length == 0) {
       this.ctx.throw(500, 'not order');
       return false;
+    } else if (result.data.orders[0].order_type != 'basic') {
+      this.ctx.throw(500, 'order_type not basic');
+      return false;
     }
-
     return await this.seaportFunction(result.data.orders[0].protocol_data);
   }
   async seaportFunction(orderInfo) {
