@@ -6,11 +6,11 @@ module.exports = () => {
       // 记录日志用
       ctx.app.emit('error', error, ctx);
       // 同一异常返回
-      ctx.status = 500;
+      ctx.status = 200;
       ctx.body = {
         success: Boolean(false),
         data: error.message,
-        code: ctx.status,
+        code: 500,
       };
     }
   };

@@ -11,7 +11,7 @@ class HomeController extends Controller {
     // });
     // console.log(result.data.toString());
     // return false;
-
+    //this.ctx.throw(500, 'close fast buy');
     // if (!address || !token || !contract) {
     //   this.ctx.throw(500, '参数异常');
     // }
