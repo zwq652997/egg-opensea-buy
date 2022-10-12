@@ -58,3 +58,33 @@ message: "close fast buy"
 pid: 95
 hostname: webcontainer-egg-ct8fkp
 
+2022-10-12 10:30:46,106 ERROR 22 [-/undefined/-/2508ms GET /] nodejs.ReferenceError: ethers is not defined
+    at HomeService.seaportFunction (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:50:21)
+    at async HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:31:12)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:18:18)
+    at async errrorHanlder (/home/projects/webcontainer-egg-ct8fkp/app/middleware/error_hanlder.js:4:7)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 22
+hostname: webcontainer-egg-ct8fkp
+
+2022-10-12 10:31:16,899 ERROR 26 [-/undefined/-/2288ms GET /] nodejs.TypeError: Cannot read properties of undefined (reading 'formatEther')
+    at HomeService.seaportFunction (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:50:41)
+    at async HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:31:12)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:18:18)
+    at async errrorHanlder (/home/projects/webcontainer-egg-ct8fkp/app/middleware/error_hanlder.js:4:7)
+    at async eval (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:50)
+    at async xssProtection (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/home/projects/webcontainer-egg-ct8fkp/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-session/index.js:41:7)
+    at async bodyParser (/home/projects/webcontainer-egg-ct8fkp/node_modules/koa-bodyparser/index.js:95:5)
+
+pid: 26
+hostname: webcontainer-egg-ct8fkp
+
