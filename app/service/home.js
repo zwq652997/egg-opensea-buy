@@ -11,7 +11,7 @@ module.exports = class HomeService extends Service {
   }
   async getOpenseaData() {
     const result = await this.ctx.curl(
-      'https://api.opensea.io/v2/orders/ethereum/seaport/listings?asset_contract_address=0x92a576207ad9cc1968210bff481f29a790863585&limit=1&token_ids=88&order_by=created_date&order_direction=desc',
+      'https://api.opensea.io/v2/orders/ethereum/seaport/listings?asset_contract_address=0xedf5d556975509303790f53bca834230c72f3f6e&limit=1&token_ids=4290&order_by=created_date&order_direction=desc',
       {
         // 自动解析 JSON response
         dataType: 'json',
@@ -45,10 +45,14 @@ module.exports = class HomeService extends Service {
     // await actions[0].transactionMethods.estimateGas();
     let gas = await this.provider.estimateGas(obj);
     let gasLimit = Math.ceil(parseInt(gas) * 1.3);
+    console.log(
+      ethers.utils.parseUnits('0.035000000000000000').toString() ===
+        current_price
+    );
     return {
       ...obj,
       gasLimit,
-      price: ethers.utils.formatEther(current_price),
+      price: current_price,
     };
   }
 };

@@ -88,3 +88,22 @@ hostname: webcontainer-egg-ct8fkp
 pid: 26
 hostname: webcontainer-egg-ct8fkp
 
+2022-10-12 11:02:36,836 ERROR 82 [-/undefined/-/2815ms GET /] nodejs.INVALID_ARGUMENTError: invalid BigNumber value (argument="value", value=undefined, code=INVALID_ARGUMENT, version=bignumber/5.7.0)
+    at Logger.makeError (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/logger/lib/index.js:238:21)
+    at Logger.throwError (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/logger/lib/index.js:247:20)
+    at Logger.throwArgumentError (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/logger/lib/index.js:250:21)
+    at BigNumber.from (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/bignumber/lib/bignumber.js:239:23)
+    at formatFixed (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/bignumber/lib/fixednumber.js:43:35)
+    at formatUnits (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/units/lib/index.js:67:40)
+    at Object.formatEther (/home/projects/webcontainer-egg-ct8fkp/node_modules/@ethersproject/units/lib/index.js:84:12)
+    at HomeService.seaportFunction (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:52:27)
+    at async HomeService.getOpenseaData (/home/projects/webcontainer-egg-ct8fkp/app/service/home.js:32:12)
+    at async HomeController.index (/home/projects/webcontainer-egg-ct8fkp/app/controller/home.js:18:18)
+reason: "invalid BigNumber value"
+code: "INVALID_ARGUMENT"
+argument: "value"
+value: undefined
+name: "INVALID_ARGUMENTError"
+pid: 82
+hostname: webcontainer-egg-ct8fkp
+
